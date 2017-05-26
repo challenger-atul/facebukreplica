@@ -1,0 +1,243 @@
+
+
+body {background-color:rgb(223,227,238);
+      background:linear-gradient(rgb(255,255,255) 8%,rgb(223,227,238));
+      }
+	
+	#people {
+	         position:absolute;
+			 left:13.7%;
+			 top:28.4%;
+			 z-index:0;
+			}
+			
+	#sfpng  {position:absolute;
+	         top:5.5%;
+			 left:12.5%;
+			 z-index:1;
+	        }
+			 
+	#backstrip  {background-color:rgb(59,89,152);
+	             position:absolute;
+				 top:0px;
+				 left:0px;
+	             width:100%;
+				 height:13%;}		 
+
+		 
+	#userid   {position:absolute;
+               left:58.55%;
+			   top:0.4%;
+	          }
+	.userid	  {z-index:2;
+			   color:white;
+			   font-family:"Arial";
+			   font-size:12px;
+			   margin-bottom:6px;
+              }
+    .username {width:148px;
+	           height:22px;
+			   }
+			  
+	
+	#passText {position:absolute;
+               left:70.75%;
+			   top:2.3%;
+			   z-index:2;
+			   color:white;
+			   font-family:"Arial";
+			   font-size:12px;
+              }
+	
+    	
+	#login    {position:absolute;
+               left:82.8%;
+			   top:5.5%;
+			   z-index:2;
+			   font-family:"Arial";
+			   font-weight:bold;
+			   color:white;
+			   font-size:12px;
+			   background-color:rgb(60,100,200);
+			   border:1px solid #585757;
+			   padding-left:5.5px;
+			   padding-right:5.5px;
+			   padding-top:3px;
+			   padding-bottom:3px;
+	          }	
+    #login:hover {background-color:rgb(50,100,160);}
+			  
+
+    #recovery {position:absolute;
+		       left:70.6%;
+		       top:9.8%;
+		       z-index:2;
+			   font-family:"Arial";
+			   font-size:12px;
+			   
+			   
+	          }
+			  
+	#use       {position:absolute;
+	            top:19.35%;
+				left:13.7%;
+				font-family:"Helvetica";
+				word-spacing:-.4px;
+				color:#23275F;
+				line-height:1.5;
+				font-size:19.8px;
+				font-weight:bold;
+               }	
+			  
+	#CreateAccount {position:absolute;
+	                top:16.6%;
+					left:56.65%;
+	               }
+	.CreateAccount {font-family:"Helvetica";
+					font-size:36px;
+					font-weight:bold;
+					color:#2F2F2F;
+					margin:0px;
+                   }
+
+    .info       {
+				 margin-top:10px;
+				 font-family:"Helvetica";
+				 font-size:19px;
+				 color:#2F2F2F;	
+				}
+
+	.Birthday   {
+				 font-family:"Helvetica";
+				 font-size:18px;
+				 color:#2F2F2F;
+				 box-sizing:border-box;
+				 margin-top:12px;
+			     margin-bottom:-12px;
+                }
+
+    .TnC        {margin-top:14px;
+	             margin-left:1px;
+				 line-height:1.3;
+				 font-family:"Helvetica";
+				 font-size:11px;
+				 color:#8A8888;
+                 }
+    #TnC > a    {color:rgb(59, 89, 152);}
+
+    .info2      {margin-top:36px;
+				 font-family:"Helvetica";
+				 font-size:13px;
+				 color:#8A8888;
+				 font-weight:bold;
+	            }
+				
+	.input                {width:400px;
+	                       height:38.8px;
+					       border:1px solid rgb(139,157,195);
+					       border-radius:4px;
+						   box-sizing:border-box;
+						   margin-bottom:10px;
+						   
+					      }	
+
+	.input2                {width:194px;
+	                       height:38.8px;
+					       border:1px solid rgb(139,157,195);
+					       border-radius:4px;
+						   box-sizing:border-box;
+						   margin-bottom:10px;
+						   margin-top:2px;
+					      }									  
+				
+	#Account            {position:absolute;
+                         top:31.5%;
+				         left:56.7%;
+                        }		   
+    
+		  
+      			   
+	#dob        {position:absolute;
+	             top:60.7%;
+				 left:56.7%;
+				}
+				
+	.day            {width:57.5px;
+                     height:30px;
+					 box-sizing:border-box;
+					 margin-right:-4px;
+					 margin-top:-10px;
+                     }
+					 
+	.month          {width:70px;
+                     height:30px;
+					 box-sizing:border-box;
+					  margin-right:-4px;
+                     }
+					 
+	.year           {width:62px;
+                     height:30px;
+					 box-sizing:border-box;
+                     }
+
+	#info3          {position:absolute;
+                     top:61%;
+                     left:71.6%;
+					 font-size:12px;
+					 font-family:"Arial Narrow";
+					 word-spacing:1.2;
+					 letter-spacing:.3;
+                     }					 
+    
+	.sex            {margin-top:21px;
+	                 margin-left:9px;
+					}
+	span            {font-size:18px;
+					 font-family:"Arial";
+	                }					 
+					
+	
+			        
+    .submit           {margin-top:8px;
+		               width:204px;
+	                   height:43px;
+					   font-size:18px;
+					   font-weight:600;
+					   color:white;
+					   border-radius:7px;
+					   background-color:#5AA448;
+					   
+                      }
+
+	#languages      {position:absolute;
+	                 top:103.1%;
+					 left:10.8%;
+                    }
+    li              {display:inline;
+	                 font-size:12px;
+					 
+	                }
+
+    #copyright      {position:absolute;
+                     top:112%;
+					 left:13.7%;
+					 font-size:10px;
+					 color:grey;
+                    }					 
+	
+    a       {text-decoration:none;
+	         color:rgb(59,89,152);
+			 }
+    a:hover {text-decoration:underline;}			 
+    
+	#recovery > a {color:rgb(139,157,195);}
+	
+	#white        {background-color:white;
+		           position:absolute;
+	               top:104%;
+				   left:0px;
+				   width:100%;
+				   height:13%;
+				   z-index:-1;
+				   
+	              }
