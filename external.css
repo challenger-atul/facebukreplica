@@ -69,13 +69,11 @@ body        {background-color:rgb(223,227,238);}
     #login:hover {background-color:rgb(50,100,160);}
 			  
 
-    #recovery {position:absolute;
-		       left:70.6%;
-		       top:9.8%;
-		       z-index:2;
+    .recovery {margin-top:-25px;
 			   font-family:"Arial";
 			   font-size:12px;
-			   z-index:0;
+			   z-index:1;
+			   
 			  }
 			  
 	.use       {
@@ -185,15 +183,7 @@ body        {background-color:rgb(223,227,238);}
 					 box-sizing:border-box;
                      }
 
-	#info3          {position:absolute;
-                     top:61%;
-                     left:71.6%;
-					 font-size:12px;
-					 font-family:"Arial Narrow";
-					 word-spacing:1.2;
-					 letter-spacing:.3;
-                     }					 
-    
+	
 	.sex            {margin-top:21px;
 	                 margin-left:9px;
 					}
@@ -233,7 +223,9 @@ body        {background-color:rgb(223,227,238);}
 			 }
     a:hover {text-decoration:underline;}			 
     
-	#recovery > a {color:rgb(139,157,195);}
+	.recovery > a {color:rgb(139,157,195);
+	               margin-left:163.5px;
+			      }
 	
 	#white        {
 		           position:absolute;
